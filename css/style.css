@@ -1,26 +1,78 @@
 /* Stage */
-
-#stage {
-    background: none;
-    height: 300px;
-    width: 600px;
+div {
+    display: flex;
+    align-content: center;
+    justify-content: center;
 }
 
-#v, #c, #d {
-  height: 200px;
-  width: 200px;  
-}
 
-.path {
+.st0 {
+
   stroke-dasharray: 1000;
-  stroke-dashoffset: 1000;
-  animation: dash 10s linear forwards;
+  stroke-dashoffset: 0;
+  -webkit-animation: dash 5s linear forwards;
 }
 
-@keyframes dash {
-  to {
-    stroke-dashoffset: 0;
-  }
+@-webkit-keyframes dash{
+  
+  from { stroke-dashoffset:1000;}
+  to { stroke-dashoffset: 0;}
+}
+
+
+
+.st1 {
+
+  stroke-dasharray: 1000;
+  stroke-dashoffset: 0;
+  -webkit-animation: dash 5s linear forwards;
+}
+
+@-webkit-keyframes dash{
+  
+  from { stroke-dashoffset:1000;}
+  to { stroke-dashoffset: 0;}
+}
+
+
+
+.st2 {
+
+  stroke-dasharray: 1000;
+  stroke-dashoffset: 0;
+  -webkit-animation: dash 6.5s linear forwards;
+}
+
+@-webkit-keyframes dash{
+  
+  from { stroke-dashoffset:1000;}
+  to { stroke-dashoffset: 0;}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* DO NOT EDIT BELOW THIS LINE */
 
